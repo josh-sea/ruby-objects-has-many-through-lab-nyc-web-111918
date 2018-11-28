@@ -27,9 +27,9 @@ Start with the `Artist`/`Song`/`Genre` domain.
 
 **The `Artist` model:**
 
-- The `Artist` class needs a class variable `@@all` that begins as an empty array
-- The `Artist` class needs a class method `.all` that lists each artist in the
-  class variable
+- ~~The `Artist` class needs a class variable `@@all` that begins as an empty array~~
+-~~ The `Artist` class needs a class method `.all` that lists each artist in the
+  class variable~~
 - An artist is initialized with a name and is saved in the `@@all` array.
 - The `Artist` class needs an instance method, `#new_song`, that takes in an
   argument of a name and genre creates a new song. That song should know that it
